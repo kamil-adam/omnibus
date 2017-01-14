@@ -12,6 +12,9 @@
 		<maven.compiler.source>1.7</maven.compiler.source>
 		<maven.compiler.target>1.7</maven.compiler.target>
 		<scala.version>2.11.8</scala.version>
+		<!-- <springframework.version>5.0.0.M3</springframework.version> -->
+		<!-- <springframework.version>4.3.5.RELEASE</springframework.version> -->
+		<xbean.version>3.11.1</xbean.version>
 	</properties>
 
 	<dependencies>
@@ -26,6 +29,25 @@
 			<artifactId>jadex-rules</artifactId>
 			<version>3.0.43</version>
 		</dependency>
+
+		<dependency>
+			<groupId>org.springframework</groupId>
+			<artifactId>spring-context</artifactId>
+			<version>${springframework.version}</version>
+		</dependency>
+		<dependency>
+			<groupId>org.apache.xbean</groupId>
+			<artifactId>xbean-spring</artifactId>
+			<version>${xbean.version}</version>
+		</dependency>
+
+
+		<dependency>
+			<groupId>org.springframework</groupId>
+			<artifactId>spring-jms</artifactId>
+			<version>${springframework.version}</version>
+		</dependency>
+
 
 	</dependencies>
 
