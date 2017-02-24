@@ -1,5 +1,5 @@
 <?xml version="1.0" encoding="UTF-8" ?>
-<testsuite tests="0" failures="0" name="pl.writeonly.omnibus.ChangeTaskStatusCommandTest" time="0.005" errors="0" skipped="0">
+<testsuite tests="0" failures="0" name="pl.writeonly.omnibus.ChangeTaskStatusCommandTest" time="0.003" errors="0" skipped="0">
   <properties>
     <property name="idea.plugins.compatible.build" value="162.9999"/>
     <property name="jna.platform.library.path" value="/usr/lib/x86_64-linux-gnu:/lib/x86_64-linux-gnu:/lib64:/usr/lib:/lib"/>

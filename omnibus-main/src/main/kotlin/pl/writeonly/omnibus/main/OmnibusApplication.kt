@@ -13,6 +13,8 @@ import io.dropwizard.setup.Environment
 import io.dropwizard.views.ViewBundle
 import org.eclipse.jetty.server.Authentication
 import org.glassfish.jersey.server.filter.RolesAllowedDynamicFeature
+import pl.writeonly.omnibus.rest.OmnibusResource
+
 //import pl.writeonly.omnibus.rest.OmnibusResource
 
 class OmnibusApplication : Application<OmnibusConfiguration>() {
@@ -69,7 +71,7 @@ class OmnibusApplication : Application<OmnibusConfiguration>() {
 //        e.register(i.getInstance(classOf[TaskResource]))
 //        e.register(i.getInstance(classOf[HealthCheckResource]))
 //        e.register(i.getInstance(classOf[EventResource]))
-//        e.register(i.getInstance(javaClass<OmnibusResource>()))
+        e.register(i.getInstance(OmnibusResource::class.java))
 
     }
 
