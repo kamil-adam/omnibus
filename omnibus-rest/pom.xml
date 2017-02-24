@@ -38,14 +38,14 @@
 
         <dependency>
             <groupId>io.dropwizard</groupId>
-            <artifactId>dropwizard-views-mustache</artifactId>
+            <artifactId>dropwizard-views-freemarker</artifactId>
         </dependency>
 
-        <dependency>
-            <groupId>org.scalatra.scalate</groupId>
-            <artifactId>scalate-core_2.11</artifactId>
-            <version>${scalate.version}</version>
-        </dependency>
+        <!--<dependency>-->
+            <!--<groupId>org.scalatra.scalate</groupId>-->
+            <!--<artifactId>scalate-core_2.11</artifactId>-->
+            <!--<version>${scalate.version}</version>-->
+        <!--</dependency>-->
 
 
     </dependencies>

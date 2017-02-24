@@ -9,7 +9,12 @@
     <orderEntry type="inheritedJdk" />
     <orderEntry type="sourceFolder" forTests="false" />
     <orderEntry type="module" module-name="omnibus-core" />
-    <orderEntry type="module" module-name="scalare-util" />
+    <orderEntry type="module" module-name="omnibus-util" />
+    <orderEntry type="library" name="Maven: org.jetbrains.spek:spek-junit-platform-engine:1.0.89" level="project" />
+    <orderEntry type="library" name="Maven: org.jetbrains.kotlin:kotlin-stdlib:1.0.6" level="project" />
+    <orderEntry type="library" name="Maven: org.jetbrains.kotlin:kotlin-runtime:1.0.6" level="project" />
+    <orderEntry type="library" name="Maven: org.jetbrains.kotlin:kotlin-reflect:1.0.3" level="project" />
+    <orderEntry type="library" name="Maven: org.jetbrains.spek:spek-api:1.0.89" level="project" />
     <orderEntry type="library" name="Maven: io.dropwizard:dropwizard-core:1.0.6" level="project" />
     <orderEntry type="library" name="Maven: io.dropwizard:dropwizard-util:1.0.6" level="project" />
     <orderEntry type="library" name="Maven: com.fasterxml.jackson.core:jackson-annotations:2.7.8" level="project" />

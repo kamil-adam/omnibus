@@ -24,6 +24,7 @@
             <artifactId>omnibus-util</artifactId>
         </dependency>
 
+
         <dependency>
             <groupId>io.dropwizard</groupId>
             <artifactId>dropwizard-core</artifactId>
