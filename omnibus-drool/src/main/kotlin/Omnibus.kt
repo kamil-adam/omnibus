@@ -1,5 +1,3 @@
-package pl.writeonly.omnibus
-
 class Omnibus {
 }
 
