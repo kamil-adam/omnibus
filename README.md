@@ -11,3 +11,6 @@ Effective Expert
 ### Scala
 * specification https://en.wikipedia.org/wiki/Specification_pattern
 * scala-rules https://github.com/scala-rules/rule-engine
+
+### Java but Kotlin
+* drools https://github.com/kiegroup/drools
