@@ -13,3 +13,6 @@ pom.xml.asc
 /bin/
 .idea/
 *.iml
+.gradle/
+/build/
+*/build/
