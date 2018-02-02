@@ -9,7 +9,6 @@ plugins {
     jacoco
     idea
     checkstyle
-    jacoco
 }
 
 allprojects {
