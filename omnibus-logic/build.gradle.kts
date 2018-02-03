@@ -4,6 +4,6 @@ plugins {
 
 dependencies {
     compile(kotlin("stdlib"))
-    compile("org.drools:drools-compiler:7.5.0.Final")
-    compile("org.drools:drools-core:7.5.0.Final")
+    compile("org.clojure:clojure:1.9.0")
+    compile("org.clojure:core.logi:0.8.11")
 }

@@ -1,7 +1,5 @@
 import org.jetbrains.kotlin.gradle.tasks.KotlinCompile
 
-
-
 plugins {
     base
     kotlin("jvm") version "1.1.51" apply false
@@ -9,6 +7,11 @@ plugins {
     jacoco
     idea
     checkstyle
+    pmd
+    findbugs
+    `scala-lang`
+    maven
+    `scala-base`
 }
 
 allprojects {
