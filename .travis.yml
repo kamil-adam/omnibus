@@ -3,7 +3,6 @@ jdk:
   - oraclejdk8
 script:
   - gradle check
-  - gradle codeCoverageReport
 dist: trusty
 sudo: false
 after_success:
