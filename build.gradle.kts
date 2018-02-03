@@ -1,5 +1,11 @@
 import org.jetbrains.kotlin.gradle.tasks.KotlinCompile
 
+repositories {
+    mavenCentral()
+    jcenter()
+    maven("http://clojars.org/repo")
+}
+
 plugins {
     base
     kotlin("jvm") version "1.1.51" apply false
