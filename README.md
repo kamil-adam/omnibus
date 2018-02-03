@@ -15,6 +15,8 @@ Effective Expert
 
 ### Scala
 * specification https://en.wikipedia.org/wiki/Specification_pattern
+* https://dzone.com/articles/specification-pattern-scala
+* https://github.com/ouertani/Rules/tree/master/src/main/scala/me/jtunisie/specifications
 * scala-rules https://github.com/scala-rules/rule-engine
 
 ### Java but Kotlin
