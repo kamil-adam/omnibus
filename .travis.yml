@@ -2,7 +2,7 @@ language: java
 jdk:
   - oraclejdk8
 script:
-  - gradle check
+  - gradle clean build
 dist: trusty
 sudo: false
 after_success:
