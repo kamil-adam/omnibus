@@ -4,6 +4,6 @@ jdk:
 dist: trusty
 sudo: false
 script:
-  - gradle clean build
+  - gradle clean build --stacktrace
 after_success:
   - bash <(curl -s https://codecov.io/bash)
