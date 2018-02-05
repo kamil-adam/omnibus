@@ -5,6 +5,6 @@ jdk:
 dist: trusty
 sudo: true
 script:
-  - ./gradlew clean build --stacktrace --info
+  - gradle wrapper --gradle-version 4.5-rc-1 --distribution-type all && ./gradlew clean build --stacktrace --info
 after_success:
   - bash <(curl -s https://codecov.io/bash)
