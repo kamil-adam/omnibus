@@ -3,7 +3,7 @@ jdk:
   - oraclejdk8
   - openjdk8
 dist: trusty
-sudo: false
+sudo: true
 script:
   - gradle wrapper && ./gradlew clean build --stacktrace --info
 after_success:

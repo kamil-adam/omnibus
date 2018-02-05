@@ -1,1 +1,1 @@
-include("omnibus-drool", "omnibus-json", "omnibus-logic", "omnibus-specs")
+include("omnibus-rules","omnibus-drool", "omnibus-json", "omnibus-logic", "omnibus-specs")
