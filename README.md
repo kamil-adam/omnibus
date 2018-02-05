@@ -21,3 +21,8 @@ Effective Expert
 
 ### Java but Kotlin
 * drools https://github.com/kiegroup/drools
+
+### JavaScript
+* https://github.com/RxNT/json-rules-engine-simplified
+* https://github.com/RxNT/react-jsonschema-form-conditionals
+* https://github.com/CacheControl/json-rules-engine
