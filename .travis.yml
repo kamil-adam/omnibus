@@ -1,9 +1,11 @@
 language: java
+sudo: required
+dist: trusty
+group: edge
 jdk:
+  - oraclejdk9
   - oraclejdk8
   - openjdk8
-dist: trusty
-sudo: true
 script:
   - gradle wrapper --gradle-version 4.5-rc-1 --distribution-type all && ./gradlew clean build --stacktrace --info
 after_success:
