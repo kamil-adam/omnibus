@@ -11,6 +11,7 @@ plugins {
     kotlin("jvm") version "1.1.51" apply false
     id("com.diffplug.gradle.spotless") version "3.8.0"
     id("com.cursive-ide.clojure") version "1.1.0"
+    id("com.moowork.node") version "1.2.0"
     scala
     jacoco
     idea

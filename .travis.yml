@@ -1,9 +1,10 @@
 language: java
 jdk:
   - oraclejdk8
+  - openjdk8
 dist: trusty
 sudo: false
 script:
-  - gradle clean build --stacktrace
+  - gradle wrapper && ./gradlew clean build --stacktrace --info
 after_success:
   - bash <(curl -s https://codecov.io/bash)
